@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "emscripten",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../emsdk/upstream/emscripten/system/include",
+                "${workspaceFolder}/../emsdk/upstream/emscripten/system/lib/libc/musl/include",
+                "${workspaceFolder}/../emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten",
+                "${workspaceFolder}/../emsdk/upstream/emscripten/system/lib/libcxx"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "${workspaceFolder}/../emsdk/upstream/bin/clang++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-clang-x64"
+        }
+    ],
+    "version": 4
+}

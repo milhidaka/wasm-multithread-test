@@ -1,0 +1,16 @@
+{
+  "name": "wasm-multithread-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "em++ -O3 src/main.cpp -o public/main.js -s INITIAL_MEMORY=64MB -pthread -sPTHREAD_POOL_SIZE=4",
+    "serve": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
+}
